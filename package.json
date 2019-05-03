@@ -1,0 +1,13 @@
+{
+  "name": "RxJS-Scraper",
+  "version": "0.1.0",
+  "description": "Collects information about the RxJS library",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.15.0"
+  }
+}
