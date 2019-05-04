@@ -1,0 +1,15 @@
+{
+  sourceMaps: true,
+  presets: [
+      ['@babel/preset-env', {
+        useBuiltIns: 'usage',
+        targets: {
+          node: "current"
+        }}],
+  ],
+  plugins: [
+    ["babel-plugin-root-import", {
+      "rootPathPrefix": "@"
+    }]
+  ]
+}
